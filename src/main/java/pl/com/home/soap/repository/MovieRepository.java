@@ -44,7 +44,7 @@ public class MovieRepository {
 		Movie out = null;
 
 		for (Movie m: movies) {
-			if (name.equals(m.getName()));
+			if (name.equals(m.getName()))
 				out = m;
 		}
 
