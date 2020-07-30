@@ -50,4 +50,10 @@ public class MovieRepository {
 
 		return out;
 	}
+
+	public void addMovie(Movie movie) {
+		Assert.notNull(movie, "The movie name must not be null");
+
+		movies.add(movie);
+	}
 }

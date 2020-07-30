@@ -9,6 +9,16 @@
         </xs:complexType>
     </xs:element>
 
+    <xs:element name="addMovieRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name"   type="xs:string"/>
+                <xs:element name="length" type="xs:double"/>
+                <xs:element name="mark"   type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
     <xs:element name="getMovieResponse">
         <xs:complexType>
             <xs:sequence>
