@@ -17,7 +17,7 @@ import org.springframework.xml.xsd.XsdSchema;
 public class WebServiceConfig extends WsConfigurerAdapter {
 	@Bean
 	public ServletRegistrationBean messageDispatcherServlet(ApplicationContext applicationContext) {
-//		Spring WS używa różnych klas do obsługi wiadomości/żądań?
+//		Spring WS używa różnych klas do obsługi wiadomości/żądań
 //		tutaj jawnie podajemy temu servletowi contekst aplikacji,
 //		definiujemu jako bean
 //		Spring sam tego automatycznie nie wykryje
